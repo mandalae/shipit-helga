@@ -3,7 +3,4 @@ node {
         checkout scm
     }
 
-    stage ("Build"){
-        sh "npm install"
-    }
 }
